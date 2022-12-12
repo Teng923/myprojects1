@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      border: 1px solid red;
+    }
+
+    a {
+      text-decoration: none;
+      color: #999;
+    }
+
+    #header {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div>hello world</div>
+
+  <style>
+    a:hover {
+      color: red;
+      transition: color 0.3s;
+    }
+  </style>
+  <a href="#">HTML</a>
+  <a href="#">前端</a>
+
+  <section>
+    <style>
+      input:focus {
+        border: 1px solid red;
+        outline: 2px solid blue;
+      }
+    </style>
+    <input type="text" placeholder="邮箱">
+    <input type="text" placeholder="手机号">
+  </section>
+  
+
+  <div id="header">header</div>
+
+  <style>
+    .item {
+      color: red;
+    }
+  </style>
+  <ul>
+    <li class="item">1</li>
+    <li class="item">2</li>
+    <li>3</li>
+  </ul>
+
+  <section>
+    <style>
+      .icon-check::before {
+        content: '✅';
+      }
+      </style>
+      <span class="icon-check">你好</span>
+      <div class="icon-check">hello</div>
+  </section>
+
+  <section>
+    <style>
+      .menu .item {
+        border: 1px solid black;
+      }
+    </style>
+    <div class="item">ccc</div>
+    <ul class="menu">
+      <li>dd
+        <ul>
+          <li class="item">aaa</li>
+        </ul>
+       </li>
+      <li class="item">bbb</li>
+    </ul>
+  </section>
+
+  <section>
+    <style>
+      .active + li {
+        color: blue;
+      }
+    </style>
+    <ul>
+      <li class="active">111</li>
+      <li>222</li>
+      <li>333</li>
+    </ul>
+  </section>
+</body>
+</html>

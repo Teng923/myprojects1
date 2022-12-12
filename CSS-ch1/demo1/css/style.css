@@ -1,0 +1,10 @@
+@import url(main.css);
+/* @import url("main.css"); */
+/* @import "main.css"; */
+/* 放在style标签或者css文件中 */
+/* @import必须放在css开头*/
+/* 语法后面的分号必不可少 */
+
+h1 {
+  color: red;
+}
